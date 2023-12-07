@@ -109,19 +109,7 @@ function AppBar() {
                 
             </div> 
         </div>
-        <div style={
-            {
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                marginLeft: '4%',
-                marginRight: '4%',
-                marginTop: '10%',
-                height: '50vh'
-            }
-        }>
-            <img src={"https://img.freepik.com/free-vector/online-tutorials-concept_52683-37480.jpg?w=1060&t=st=1700316431~exp=1700317031~hmac=cd26acfe469c88f83835d5e9bc86ade6e882cbac6eed56475897dcc1ce8d3017"} alt="Landing" style={{ width: '100%', height: "600px" }} />
-        </div>
+        
     </div>
 }
 
