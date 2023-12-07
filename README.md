@@ -1,8 +1,15 @@
-# React + Vite
+# Course-Selling-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Course-Selling-App is a MERN stack application tailored for the educational sector. It serves as a dynamic marketplace where educators can sell their courses and students can purchase them. The platform is designed to offer an intuitive and user-friendly experience for both teachers and students, facilitating seamless transactions and access to educational content.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication:** Secure login for teachers and students.
+- **Course Management:** Teachers can list, manage, and sell courses.
+- **Course Browsing and Purchase:** Students can browse, buy, and access courses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- MongoDB 
+- Express.js
+- React
+- Node.js
