@@ -4,8 +4,9 @@ import SignIn from "./components/SignIn";
 import AppBar from "./components/AppBar";
 import AddCourse from './components/AddCourse';
 import Courses from './components/Courses';
-import Dashboard from './components/Dashboard';
 import Course from './components/Course';
+import PayementSuccessPage from './components/PaymentSuccessPage';
+import PayementFailurePage from './components/PaymentFailurePage';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
           <Route path = "/signup" element = {<SignUp />}/>
           <Route path = "/signin" element = {<SignIn />}/>
           <Route path = "/admin/addcourses" element = {<AddCourse/>} />
+          <Route path = "/payment-success" element = {<PayementSuccessPage/>} />
+          <Route path = "/payment-failure" element = {<PayementFailurePage/>} />
         </Routes>
       </Router>
     </div>

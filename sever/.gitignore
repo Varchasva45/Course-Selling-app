@@ -4,4 +4,4 @@
 /node_modules
 
 # Ignore files with the .env extension in any directory
-*.env
+.env
